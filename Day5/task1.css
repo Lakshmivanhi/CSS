@@ -1,0 +1,24 @@
+.container{
+    border: solid;
+    width: 50%;
+    height: 15rem;
+    /* padding: 10px; */
+    text-align: justify;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+.image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px 15px 5px 5px; 
+    /* border-radius: 50%; */
+}
+.para {
+    /* display: flex; */
+    display: inline;
+   font-size: medium;
+   padding-right: 5px;
+   
+}

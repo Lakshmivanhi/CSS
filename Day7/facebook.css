@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(231, 229, 229);
+}
+.main{
+    display: flex;
+   
+    margin: 10% 15% 5% 15%;
+    justify-content: space-evenly;
+}
+.part{
+    width: 400px;
+    /* border: solid; */
+    /* display: inline-block; */
+    /* float: left; */
+   
+}
+.heading{
+    color: blue;
+    font-size: 60px;
+    margin-bottom: 0;
+    /* text-indent: 15%; */
+}
+.matter{
+    font-size: 25px;
+    margin: 10px 5px 30px 5px;
+    /* margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 10px; */
+}
+  /* .maincontainer{
+    display: inline-block; 
+    float: right;
+     margin-left: 20%;
+ }  */
+.container{
+    border: solid 2px white; 
+    width: 400px;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+}
+#info input{
+  padding: 15px;
+  margin: 10px 7px 5px 8px;
+  width: 350px;
+  /* text-align: center; */
+  text-indent: 5%;
+  border-radius: 5px;
+  font-size: medium;
+}
+#info input:hover{
+    border-color: blue;
+}
+.button1{
+  display: block;
+  padding: 15px;
+  width: 380px;
+  margin: 5px 7px 5px 8px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.Forgotpassword{
+  
+  padding: 5px;
+  
+  margin: 5px 127px 5px 127px;
+ text-decoration: none;
+}
+.button2{
+ color: white;
+ background-color: rgb(25, 200, 25);
+ font-weight: bold;
+ font-size: large;
+ width: 200px;
+ height: 50px;
+ margin: 10px 100px 20px 100px;
+ border-radius: 5px;
+}
+.para{
+  margin-left: 40px;
+}

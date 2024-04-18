@@ -1,0 +1,136 @@
+/* .header{
+    border: solid;
+} */
+/* .aside{
+    border: solid;
+} */
+/* .section{
+    border: solid;
+} */
+/* .footer{
+    border: solid;
+} */
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,25%);
+    grid-template-areas: "header header  header  header "
+                          "aside section section section"
+                          "footer footer footer footer";
+    column-gap: 30px;  
+    row-gap: 50px;   
+}
+
+.header{
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+.aside{
+    grid-area: aside;
+}
+.section{
+    grid-area: section;
+    margin-right: 100px;
+}
+.footer{
+    grid-area: footer;
+    position: fixed;
+    bottom: 0;
+}
+.main{
+    display: flex;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.menu  i{
+    padding: 10px;
+}
+.logo{
+    margin-left: 15px;
+}
+.searchcontainer{
+    display: flex;
+    margin-left: 300px;
+}
+.search-input{
+    margin: 5px 0;
+    width: 530px;
+    height: 36px;
+    text-indent: 5%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: larger;
+    
+}
+.search-icon{
+    margin: 5px 0;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: solid 0.5px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+   
+}
+.search-microphone{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border: solid 0.5px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(242, 240, 240);
+    border-style: none;
+}
+.lastcontainer{
+    margin-left: 250px;
+    display: flex;
+}
+.camera, .bell, .mailimage {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.mailimage img{
+    border-radius: 50%;
+}
+.aside{
+    line-height: 40px;
+    width: 200px;
+    margin-right: 100rem;
+}
+.Home i{
+    font-size: 1.3rem;
+}
+.Home a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 20px;
+}
+.section1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* column-gap: 10px; */
+    row-gap: 10px;
+}
+.image1 img{
+    width: 350px;
+    height: 300px;
+}

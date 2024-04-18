@@ -1,0 +1,53 @@
+.cssbox{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.container{
+    border: dashed;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(254, 182, 0);
+}
+.container>h4{
+    margin: 3px 0 0 5px ;
+    /* margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 5px; */
+}
+.container2{
+    background-color: rgb(255, 228, 196);
+    border: solid;
+    width: 250px;
+    height: 180px;
+    margin: 10px 19px 10px 19px;
+    /* padding: 5px; */
+    /* margin-left: 19px;
+    margin-right: 19px;
+} */
+}
+.container2 h4{
+    margin: 2px 0 0 5px;
+    /* margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0; */
+}
+.container3{
+    border: dashed;
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgb(169, 241, 169);
+}
+.container4{
+    border: solid;
+    width: 130px;
+    height: 25px;
+    margin: 20px 38px 25px 38px;
+    background-color: rgb(186, 186, 232);
+}
+.container4 h4{
+   /* margin: 5px 5px 5px 10px; */
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+p{
+    border-style: dashed dotted double solid;
+    border-color: aqua;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(230, 40, 72);
+    border-width: 5px;
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+section{
+    border-style: dashed dotted double;
+    border-color: rgb(255, 0, 136);
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(65, 229, 223);
+    border-width: 5px;
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+article{
+    border-style: dashed double ;
+    border-color: rgb(55, 0, 255);
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(40, 230, 72);
+    border-width: 5px;
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+nav{
+    border-style: dashed;
+    border-color: rgb(3, 255, 255);
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(230, 40, 170);
+    border-width: 5px;
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+
+    
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.loader{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(transparent, #00f1ff);
+    animation: load 2s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader::before{
+    content: 'Loading..';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: pink;
+    font-size: 30px;
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: #121212;
+}
+@keyframes load{
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

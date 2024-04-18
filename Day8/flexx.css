@@ -1,0 +1,55 @@
+ /* .ver-navbar{
+    background-color: black;
+    color: white;
+    height: 50px; */
+    /* without using ul tag below properties are working for li */
+    /* list-style-type: none;   
+    display: flex; 
+     justify-content: space-around;
+     align-items: center; 
+    font-size: larger;  */
+
+  /* .ver-navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    font-size: larger;
+}  */
+body{
+    background-image: url("../Day3/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container1 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: larger;
+}
+.container1 li:hover{
+  color: red;
+}
+.container2 ul{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    width:90px ;
+    /* align-items: center; */
+    line-height: 100px;
+    list-style: none;
+    background-color: black;
+    color: white;
+    /* height: 10px; */
+    font-size: larger;
+    /* margin: auto; */
+}
+.container2 li:hover{
+    color: blue;
+  }
+
+   

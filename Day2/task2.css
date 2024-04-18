@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(128, 228, 143);
+}
+header h1{
+    background-color: pink;
+    text-align: center;
+}
+li> a{
+    text-decoration: none;
+    color: rgb(255, 0, 153);
+}
+section p{
+    font-style: italic;
+    font-size: 1.5em;
+}
+section h2{
+    color: rgb(65, 46, 207);
+}
+#content> h3{
+    color: rgb(232, 21, 21);
+    font-size: 1.5em;
+}
+#content li{
+    color: rgba(181, 1, 70, 0.686);
+}
+footer p{
+    background-color: rgb(19, 217, 46);
+}

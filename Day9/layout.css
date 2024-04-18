@@ -1,0 +1,87 @@
+.container{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+.logo{
+ mix-blend-mode: lighten;
+}
+/* .banner {
+   display: grid;
+   grid-template-columns: auto auto ;
+} */
+.navlinks a{
+    padding: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navlinks a:hover{
+    color: black;
+}
+.aside{
+    margin-top: 50px;
+}
+.aside a{
+    display: block;
+    line-height: 50px;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.adv img{
+    margin-top: 50px;
+}
+/* article */
+.article{
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.image1 a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+.image a{
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    width: 95rem;
+    margin-top: 20px;
+   height: 20rem;
+    background-color: rgb(3, 3, 40);
+}
+.footercontainer{
+    /* margin-top: 10%; */
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+.footercontainer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,15 @@
+.container{
+    width: 500px;
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.header, .main{
+    grid-column: 1/5;
+}
+.item1{
+    grid-row: 1/2;
+}
+.item2{
+    grid-row: 1/;
+}

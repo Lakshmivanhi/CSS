@@ -1,0 +1,26 @@
+.container{
+    border: solid;
+    width: max-content;
+    height: 200px;
+    display: flex;
+    margin: 100px 0 0 200px;
+}
+.container1{
+    border: solid;
+    width: 100px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(106, 106, 204);
+    visibility: hidden;
+    /* display: none; */
+
+}
+.container2{
+    border: solid;
+    width: 100px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(245, 154, 169);
+   /* display: none; */
+   /* visibility: hidden; */
+}
